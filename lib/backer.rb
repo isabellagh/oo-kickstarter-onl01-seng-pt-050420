@@ -9,6 +9,10 @@ class Backer
     
   end 
   
+  def backed_projects(project)
+    self << []
+  end 
+  
   
   
 end 
